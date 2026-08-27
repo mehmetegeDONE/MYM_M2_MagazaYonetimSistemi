@@ -72,11 +72,8 @@ fun main() {
                     }else break
                 } while (true)
 
-
-                print("Urunun son kullanma tarihini girin ('24/3/2025' gibi kullanarak belirtin) : ")
-
                 do {
-                    print("Urun ismini girin: ")
+                    print("Urunun son kullanma tarihini girin ('24/3/2025' gibi kullanarak belirtin): ")
                     sonKullanmaTarihi = readln().trim()
                     if (sonKullanmaTarihi.isEmpty()){
                         println("${Renk.RED}HATA: Girdiğiniz tarih yok! Lütfen girdiyi doldurunuz.${Renk.RESET}")
